@@ -138,6 +138,7 @@ a:active {
 .contact-button,
 .about-button,
 .service-button {
+  display: inline-block;
   padding: 16px;
   border-radius: 16px;
   color: white;
@@ -147,16 +148,18 @@ a:active {
   font-size: 20px;
   width: 200px;
   border: none;
-  transition: all 0.3s ease; /* Transition for smooth effect */
+  transition: all 0.3s ease;
   cursor: pointer;
-  position: relative; /* For pseudo-elements */
-  overflow: hidden; /* Ensure pseudo-elements don't extend outside */
+  position: relative;
+  overflow: hidden;
   background-color: rgb(46, 66, 182);
+  text-decoration: none; /* Add this to remove the underline from links */
 }
 
 .button:hover {
   filter: brightness(0.9);
 }
+
 
 .contact-button {
   background-color: rgb(59, 180, 104);
@@ -1051,6 +1054,12 @@ footer p {
   margin-bottom: 120px;
 }
 
+article h3 {
+  padding: 25px 0;
+  font-weight: 600;
+  font-style: oblique;
+}
+
 /* Bootstrap */
 .p-0 {
   text-align: center;
@@ -1065,7 +1074,7 @@ footer p {
   margin-bottom: 35px;
 }
 
-#about-heading {
+.about-heading {
   text-align: center;
   position: relative;
   text-transform: uppercase;
@@ -1074,7 +1083,7 @@ footer p {
   font-size: 34px;
 }
 
-#about-heading::before {
+.about-heading::before {
   content: "";
   position: absolute;
   left: 50%;
@@ -1112,7 +1121,7 @@ footer p {
 }
 
 @media (min-width: 700px) {
-  #about-heading::before {
+  .about-heading::before {
     content: "";
     position: absolute;
     left: 50%;
