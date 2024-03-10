@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Andalusia Training Centre</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer">
+    <link rel="icon" href="images/logo.webp">
+    <link rel="stylesheet" href="bootstrap.css"> <!-- Custom Bootstrap Styles stored separately in this file -->
+    <link rel="stylesheet" href="styles.css"> <!-- Main CSS stylesheet for all pages -->
+  </head>
+  <body>
+
+  <!-- Navigation Bar Section -->
+  <section class="navigation">
+    <nav class="navbar navbar-expand-lg bg-white navbar-light py-2">
+      <div class="container">
+        <!-- Andalusia Training Centre Logo -->
+        <a href="index.html" class="navbar-brand">
+          <img src="images/logotransparent.webp" alt="Andalusia Training Centre Logo" id="nav-img"/>
+        </a>
+
+        <!-- Drop-down menu - Toggler (Bootstrap)-->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navigation Bar Items -->
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="courses.html" class="nav-link">Courses</a>
+            </li>
+            <li class="nav-item">
+              <a href="aboutus.html" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="events.html" class="nav-link">Events</a>
+            </li>
+            <li class="nav-item">
+              <a href="contacts.html" class="nav-link active">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </section>
+
+  <!-- Our Location (Map) Section -->
+  <div class="reveal">
+    <div class="map-section">
+      <h2>Our Location</h2>
+      <div class="iframe-container">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.5971602780523!2d39.272329573587974!3d-6.818750893178953!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x185c4b3d628a271b%3A0xc437cf7a2d2fd444!2sAndalusia%20Training%20Center!5e0!3m2!1sen!2stz!4v1696611262059!5m2!1sen!2stz"
+          width="1300"
+          height="500"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+      <div class="content">
+        <div class="call">
+          <div class="i"><i class="fa-solid fa-phone"></i></div>
+          <div class="call-numbers">
+            <span> +255 786 960 747</span>
+            <span> +255 713 388 566 </span>
+          </div>
+        </div>
+        <div class="location">
+          <div class="i">
+            <i class="fa-solid fa-location-dot"></i>
+          </div>
+          <div class="location-area">
+            <span>Mafia/Swahili Street</span>
+            <span>Blg No, 60, 4th Floor</span>
+            <span>Kariakoo, Dar es Salaam </span>
+          </div>
+        </div>
+        <div class="email">
+          <div class="i">
+            <i class="fa-regular fa-envelope"></i>
+          </div>
+          <div class="email-address">
+            <span>typf.atc@gmail.com</span>
+          </div>
+        </div>
+        <div class="location">
+          <div class="i">
+            <i class="fa-solid fa-location-dot"></i>
+          </div>
+          <div class="location-area">
+            <span>Upanga Branch</span>
+            <span>Mfaume Street, House No.26</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Send Us A Message (Contact Us) Section -->
+  <section id="contacts">
+    <img src="images/green-circle.png" alt="Green Circle" class="animated-circle green-circle" data-speed="0.2">
+    <img src="images/blue-circle.png" alt="Blue Circle" class="animated-circle blue-circle" data-speed="0.6">
+    <img src="images/blue-circle.png" alt="Blue Circle" class="animated-circle blue-circle-2" data-speed="0.1">
+    <div class="reveal-scroll">
+      <h1>Contact Us</h1>
+      <div class="contactss">
+        <div id="message">
+          <h2>We'd Love to Hear from You!</h2>
+          <form action="https://formsubmit.co/typf.atc@gmail.com" method="POST">
+            <input type="text" name="fname" id="fname" placeholder="Full Name" required>
+            <input type="email" name="email" id="email" placeholder="Your Email" required>
+            <textarea name="message" id="message" cols="60" rows="7" placeholder="Message" required></textarea>
+            <button type="submit">Send</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER Section -->
+  <footer class="footerr">
+    <div class="container2">
+      <div class="roww">
+        <div class="footer-col">
+          <h4>Useful links</h4>
+          <ul style="list-style: none">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="contacts.html">Contact Us</a></li>
+            <li><a href="aboutus.html#gallery">Gallery</a></li>
+            <li><a href="report.html"><span>Report</span></a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Popular Services</h4>
+          <ul style="list-style: none">
+            <li><a href="courses.html#long-courses">Long Courses</a></li>
+            <li><a href="courses.html#short-courses">Short Courses</a></li>
+            <li><a href="courses.html#languages">Languages</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Location</h4>
+          <ul style="list-style: none">
+            <li>Mafia/Swahili Street</li>
+            <li>Blg No, 60, 4th Floor, Kariakoo</li>
+            <br />
+            <li>Upanga Branch</li>
+            <li>Mfaume Street, House No.26</li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Social Links</h4>
+          <div class="social-links">
+            <a href="https://www.facebook.com/p/Andalusia-Training-Center-100065165375777/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://wa.me/+255786960747" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://www.instagram.com/andalusia_tc/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p>&copy; 2024 Andalusia Training Centre. All rights reserved.</p>
+  </footer>
+
+  <!---------------------------- JAVASCRIPT FILES ---------------------------->
+  <!-- Bootstrap Toggler -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous">
+  </script>
+
+  <!-- Scrolling Reveal Effects -->
+  <script src="revealStart.js"></script>
+  <script src="revealScroll.js"></script>
+
+  <!-- Parallax Moving Circles Effect -->
+    <script src="parallaxScrollingEffect.js"></script>
+  </body>
+</html>

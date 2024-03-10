@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home | Andalusia Training Centre</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="icon" href="images/logo.webp" />
+    <link rel="stylesheet" href="./plugins/bootstrap.min.css" />
+    <link rel="stylesheet" href="bootstrap.css" />
+    <!-- Custom Bootstrap Styles stored separately in this file -->
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Main CSS stylesheet for all pages -->
+  </head>
+  <body>
+    <!-- Navigation Bar Section -->
+    <section class="navigation">
+      <nav class="navbar navbar-expand-lg bg-white navbar-light py-2">
+        <div class="container">
+          <!-- Andalusia Training Centre Logo -->
+          <a href="index.html" class="navbar-brand">
+            <img
+              src="images/logotransparent.webp"
+              alt="Andalusia Training Centre Logo"
+              id="nav-img"
+            />
+          </a>
+
+          <!-- Drop-down menu - Toggler (Bootstrap)-->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navmenu"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- Navigation Bar Items -->
+          <div class="collapse navbar-collapse" id="navmenu">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a href="index.html" class="nav-link active">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="courses.html" class="nav-link">Courses</a>
+              </li>
+              <li class="nav-item">
+                <a href="aboutus.html" class="nav-link">About</a>
+              </li>
+              <li class="nav-item">
+                <a href="events.html" class="nav-link">Events</a>
+              </li>
+              <li class="nav-item">
+                <a href="contacts.html" class="nav-link">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- PREVIEW Section -->
+      <main class="preview circle-container">
+        <img
+          src="images/green-circle.png"
+          alt="Green Circle"
+          class="animated-circle green-circle"
+          data-speed="0.2"
+        />
+        <img
+          src="images/blue-circle.png"
+          alt="Blue Circle"
+          class="animated-circle blue-circle"
+          data-speed="0.6"
+        />
+        <img
+          src="images/blue-circle.png"
+          alt="Blue Circle"
+          class="animated-circle blue-circle-2"
+          data-speed="0.1"
+        />
+        <div class="heading">
+          <h2>Welcome To</h2>
+          <h2 class="andalusia-text"><span class="auto-type"></span></h2>
+          <p>
+            Discover your ultimate resource for top-notch tutoring, extensive
+            library access, personalized counselling sessions, and much more.
+            Explore all our offerings by clicking on any of the links below!
+          </p>
+          <a href="courses.html"><button class="button">Our Courses</button></a>
+          <a href="contacts.html#contacts"
+            ><button class="button contact-button">Contact Us</button></a
+          >
+        </div>
+        <div class="pic">
+          <img src="images/preview-img.png" alt="Preview Picture - Education PNG" />
+        </div>
+      </main>
+    </section>
+
+    <!-- About Us Section -->
+    <div class="about">
+      <div class="about-text">
+        <h2>About Us</h2>
+        <p>
+          Discover a wide range of services and courses at an affordable price,
+          including comprehensive library services, complimentary Wi-Fi access,
+          professional counselling services, and a diverse selection of courses!
+        </p>
+        <p>
+          Since opening its doors in 2018, our center has provided education to
+          more than 600 students ranging in age from 10 to over 65 years old. We
+          also offer support in CV writing and interview preparation to ensure
+          our graduates are fully prepared for the job market. Click the link
+          below to learn more!
+        </p>
+        <a href="aboutus.html"
+          ><button class="button about-button">Learn More</button></a
+        >
+      </div>
+      <div class="about-pic">
+        <img src="images/about2.webp" alt="Andalusia Classroom Picture" />
+      </div>
+    </div>
+
+    <!-- OUR SERVICES Section -->
+    <div class="service">
+      <div class="reveal-scroll">
+        <h2>OUR SERVICES</h2>
+        <div class="card-list">
+          <a href="contacts.html#contacts" class="card-item card-1">
+            <img src="images/library.png" alt="Card Image" />
+            <span class="library">Library</span>
+            <h3>
+              Enjoy reading and studying in a cool, air-conditioned space!
+            </h3>
+            <div class="arrow">
+              <i class="fas fa-arrow-right card-icon"></i>
+            </div>
+          </a>
+          <a href="contacts.html#contacts" class="card-item card-2">
+            <img src="images/counselling.png" alt="Card Image" />
+            <span class="counselling">Counselling</span>
+            <h3>Schedule your complimentary counselling session today!</h3>
+            <div class="arrow">
+              <i class="fas fa-arrow-right card-icon"></i>
+            </div>
+          </a>
+          <a href="courses.html" class="card-item card-3">
+            <img src="images/courses.png" alt="Card Image" />
+            <span class="courses">Courses</span>
+            <h3>Select from our wide range of courses available!</h3>
+            <div class="arrow">
+              <i class="fas fa-arrow-right card-icon"></i>
+            </div>
+          </a>
+          <a href="contacts.html#contacts" class="card-item card-4">
+            <img src="images/career.png" alt="Card Image" />
+            <span class="career">Career Counselling</span>
+            <h3>Map your career journey with expert guidance!</h3>
+            <div class="arrow">
+              <i class="fas fa-arrow-right card-icon"></i>
+            </div>
+          </a>
+        </div>
+        <a href="courses.html"
+          ><button class="button service-button">View Courses</button></a
+        >
+      </div>
+    </div>
+
+    <!-- FOOTER Section -->
+    <footer class="footerr">
+      <div class="container2">
+        <div class="roww">
+          <div class="footer-col">
+            <h4>Useful links</h4>
+            <ul style="list-style: none">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="aboutus.html">About Us</a></li>
+              <li><a href="courses.html">Courses</a></li>
+              <li><a href="contacts.html">Contact Us</a></li>
+              <li><a href="aboutus.html#gallery">Gallery</a></li>
+              <li><a href="report.html"><span>Report</span></a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Popular Services</h4>
+            <ul style="list-style: none">
+              <li><a href="courses.html#long-courses">Long Courses</a></li>
+              <li><a href="courses.html#short-courses">Short Courses</a></li>
+              <li><a href="courses.html#languages">Languages</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Location</h4>
+            <ul style="list-style: none">
+              <li>Mafia/Swahili Street</li>
+              <li>Blg No, 60, 4th Floor, Kariakoo</li>
+              <br />
+              <li>Upanga Branch</li>
+              <li>Mfaume Street, House No.26</li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Social Links</h4>
+            <div class="social-links">
+              <a
+                href="https://www.facebook.com/p/Andalusia-Training-Center-100065165375777/"
+                target="_blank"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="https://wa.me/+255786960747" target="_blank"
+                ><i class="fab fa-whatsapp"></i
+              ></a>
+              <a
+                href="https://www.instagram.com/andalusia_tc/?hl=en"
+                target="_blank"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p>&copy; 2024 Andalusia Training Centre. All rights reserved.</p>
+    </footer>
+
+    <!---------------------------- JAVASCRIPT FILES ---------------------------->
+    <!-- Bootstrap Toggler -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Scrolling Reveal Effects -->
+    <script src="revealScroll.js"></script>
+
+    <!-- Auto-Typed Text Effect -->
+    <!-- Imported CDN from: https://github.com/mattboldt/typed.js -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="animatedTyping.js"></script>
+
+    <!-- Parallax Moving Circles Effect -->
+    <script src="parallaxScrollingEffect.js"></script>
+  </body>
+</html>

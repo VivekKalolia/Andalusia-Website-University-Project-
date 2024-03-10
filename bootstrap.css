@@ -1,0 +1,82 @@
+/* Bootstrap Library */
+.navbar {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.nav-item {
+    margin-right: 40px;
+}
+
+.bg-dark {
+    background-color: inherit !important;
+}
+
+.nav-link {
+    font-size: 22px;
+    color: rgb(117,117,117);
+    position: relative;
+}
+
+.nav-item .nav-link.active {
+    color: rgb(59, 180, 104) !important;
+}
+
+/* For the line animation under the navbar links */
+.nav-link::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 3px;
+    width: 0;
+    height: 2px;
+    background-color: rgb(59, 180, 104);
+    transition: width 0.5s ease-in-out; /* Smooth transition for the width */
+}
+
+.nav-link:hover::after {
+    width: 100%; /* Expand the line to full width on hover */
+}
+
+/* Toggler Menu Dropdown (Bootstrap) */
+.navbar-toggler {
+    margin-right: 20px;
+    border: none !important;
+    background-color: transparent;
+}
+
+/* Specifically for the active state */
+.nav-link.active {
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+
+@media (max-width: 991px) {
+    .nav-link {
+        color: #202020;
+    }
+
+    .navbar-collapse {
+        text-align: center;
+        background-color: rgb(59, 180, 104, 0.8);
+        border-radius: 25px;
+    }
+
+    .nav-item {
+        padding: 10px 0;
+        margin-right: 0px;
+    }
+
+    .nav-link::after {
+        height: 0px;
+    }
+}
+
+@media (max-width: 767px) {
+    .nav-item {
+        padding-top: 0px;
+    }
+}
